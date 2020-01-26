@@ -1,0 +1,13 @@
+./beavar -a Simple1.beavar 1-s.txt
+./beavar -a Simple2.beavar 1-s.txt 2-s.txt
+
+./beavar -a SimpleAll.beavar [0-5]-s.txt
+
+
+./beavar -t Simple2.beavar
+./beavar -T Simple2.beavar
+
+# This should fail
+./beavar -T BAD.beavar
+
+./beavar -e Simple2.beavar
